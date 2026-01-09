@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marketeando - Tarjeta Digital</title>
+    <link rel="stylesheet" href="./css/style2.css">
+</head>
+
+
+<main class="card">
+
+    <body>
+
+        <!-- HEADER -->
+        <div class="ar">
+            <section class="header">
+                <img src="./img/logo-marketeando.webp" alt="Marketeando.pe" class="logo">
+
+                <div class="avatar-container">
+                    <img src="./img/person.png" alt="Donny Escalante" class="avatar">
+                </div>
+
+                <h1>Donny Escalante</h1>
+                <p class="role">Manager – Marketeando.pe</p>
+                <p class="slogan">Estrategia digital para marcas que quieren crecer.</p>
+            </section>
+        </div>
+
+        <div class="ab bg">
+            <div class="buttons">
+                <!-- CTA WHATSAPP -->
+                <section class="cta">
+                    <button class="btn btn-whatsapp" onclick="openWhatsApp()">
+                        <span class="icon">
+                            <img src="./img/whatsapp-svgrepo-com.svg" class="icon-img" alt="whatsapp">
+                        </span>
+                        <span class="text">Habla conmigo por WhatsApp</span>
+                    </button>
+                </section>
+
+                <!-- ACTION BUTTONS -->
+                <section class="actions">
+                    <button class="action-btn" onclick="callPhone()">
+                        <span class="icon">
+                            <img src="./img/phone-call-svgrepo-com (1).svg" class="icon-img" alt="Llamar">
+                        </span>
+                        <span class="text">Llamar</span>
+                    </button>
+
+                    <button class="action-btn" onclick="requestProposal()">
+                        <span class="icon">
+                            <img src="./img/mail-alt-svgrepo-com (1).svg" class="icon-img" alt="propuesta">
+                        </span>
+                        <span class="text">Solicita una propuesta</span>
+                    </button>
+
+                    <button class="action-btn" onclick="downloadVcard()">
+                        <span class="icon">
+                            <img src="./img/arrow-down-to-bracket-svgrepo-com.svg" class="icon-img" alt="contacto">
+                        </span>
+                        <span class="text">Descargar contacto</span>
+                    </button>
+
+                    <button class="action-btn" onclick="shareCard()">
+                        <span class="icon">
+                            <img src="./img/arrow-up-right-from-square-svgrepo-com (1).svg" class="icon-img"
+                                alt="Compartir tarjeta">
+                        </span>
+                        <span class="text">Compartir tarjeta</span>
+                    </button>
+                </section>
+            </div>
+            <section class="credentials">
+                <p>✨ Más de <span> 100 marcas</span> atendidas</p>
+                <p>📈 Especialista en redes, ads y branding</p>
+            </section>
+
+        </div>
+
+</main>
+
+<script src="./index.js"></script>
+</body>
+
+</html>
