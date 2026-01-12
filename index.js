@@ -1,9 +1,9 @@
 function openWhatsApp() {
-  window.open("https://wa.me/51908795747", "_blank");
+  window.open("https://wa.me/51907488194", "_blank");
 }
 
 function callPhone() {
-  window.location.href = "tel:+51908795747";
+  window.location.href = "tel:+51907488194";
 }
 
 function requestProposal() {
@@ -17,7 +17,7 @@ VERSION:3.0
 FN:Donny Escalante
 ORG:Marketeando.pe
 TITLE:Manager
-TEL:+51908795747
+TEL:+51907488194
 EMAIL:info@marketeando.pe
 END:VCARD
   `;
