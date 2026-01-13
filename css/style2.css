@@ -104,8 +104,8 @@ body {
     border: 5px solid white;
     overflow: hidden;
     margin: 20px auto;
-    /* background: radial-gradient(circle, #ffffff ,80%, #ff7a18 );  */
-    background: linear-gradient(650deg, #ffffff, #ff7a18);
+    background: radial-gradient(circle, #ffffff ,80%, #ff7a18 ); 
+    /* background: linear-gradient(650deg, #ffffff, #ff7a18); */
     box-shadow: 1px 1px 10px #ff781841;
 }
 
@@ -348,13 +348,10 @@ body {
     }
 
     /* Secciones */
-    .ar {
-        height: 30%;
-    }
-
     .ab {
-        height: auto;
-        box-shadow: inset 0px 250px 80px #ffffff;
+        margin: 0;
+        padding: 0;
+        box-shadow: inset 0px 280px 80px #ffffff;
     }
 
     /* HEADER */
@@ -388,36 +385,46 @@ body {
         padding: 12px;
         
     }
-
     .btn-whatsapp .text {
         font-size: 1rem;
     }
 
+    .buttons {
+        margin: 0 1rem;
+    }
+
     /* ACTIONS */
     .actions {
-        grid-template-columns: 1fr;
         gap: 12px;
         padding: 15px;
     }
 
     .action-btn {
-        padding: 12px;
+        padding: 8px;
         border-radius: 14px;
+        height: 2.5rem;
     }
 
     .action-btn .icon {
         padding: 8px;
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    .action-btn .icon-img {
+        width: 1rem;
     }
 
     .action-btn .text {
-        font-size: 1rem;
+        font-size: .7rem;
     }
 
     /* CREDENTIALS */
     .credentials {
-        padding: 15px;
+        height: 200px;
         font-size: 0.95rem;
         text-align: center;
+        text-shadow: 0 0 2px #ffffff;
     }
 
     /* IMÁGENES */
