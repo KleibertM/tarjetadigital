@@ -15,10 +15,7 @@ body {
     display: flex;
     justify-content: center;
     padding: 20px;
-<<<<<<< HEAD
     font-family: 'Axiforma', sans-serif;
-=======
->>>>>>> 27c1e22406808286d4049ce29e9b15e1436ab598
 }
 
 .card {
@@ -334,6 +331,7 @@ body {
     font-size: 1.1rem;
     color: #333;
     font-weight: bold;
+    text-align: start;
 }
 
 .icon-img {
