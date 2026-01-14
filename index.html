@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -7,29 +7,25 @@
     <link rel="shortcut icon" href="./img/person.png" type="image/x-icon">
     <link rel="stylesheet" href="./css/style2.css">
 
-   <title>Donny Escalante | Tarjeta Digital</title>
+    <title>Marketeando | Tarjeta Digital</title>
 
-  <!-- Open Graph para WhatsApp -->
-  <meta property="og:title" content="Donny Escalante | Tarjeta Digital">
-  <meta property="og:description" content="Conecta conmigo fácilmente desde mi tarjeta digital">
-  <meta property="og:image" content="https://marketeando.pe/donny.escalante/img/person.png">
-  <meta property="og:url" content="https://marketeando.pe/donny.escalante/">
-  <meta property="og:type" content="website">
+    <!-- Open Graph para WhatsApp -->
+    <meta property="og:title" content="Mi tarjeta Digital">
+    <meta property="og:description" content="Conecta conmigo">
+    <meta property="og:image" content="https://marketeando.pe/donny.escalante/img/tarjeta.jpg">
+    <meta property="og:url" content="https://marketeando.pe/donny.escalante/">
+    <meta property="og:type" content="website">
 
 </head>
 
-
-<main class="card">
-
-    <body>
-
+<body>
+    <main class="card">
         <!-- HEADER -->
+         <div class="back"></div>
         <div class="ar">
             <section class="header">
-                <img src="./img/LOGO-BLANCO-MARKETEANDO.png" alt="Marketeando.pe" class="logo">
-
                 <div class="avatar-container">
-                    <img src="./img/person.png" alt="Donny Escalante" class="avatar">
+                    <img src="./img/logo-marketeando.webp" alt="marketeando" class="avatar">
                 </div>
                 <div class="links-red">
                     <a href="https://www.facebook.com/MarketeandoPuntoPe" target="_blank" class="link"><img
@@ -43,10 +39,17 @@
                     <a href="https://www.tiktok.com/@marketeando.pe.oficial" target="_blank" class="link"><img
                             src="./img/tiktok-svgrepo-com.svg" alt="" class="icon-link"></a>
                 </div>
+                <h1>Marketeando.pe</h1>
+                <p class="role">Agencia de Marketing Digital</p>
+                <p class="slogan">Somos un equipo especializado en Marketing y Publicidad enfocado en brindarte las
+                    mejores soluciones digitales para tu negocio.</p>
 
-                <h1>Donny Escalante</h1>
-                <p class="role">Manager – Marketeando.pe</p>
-                <p class="slogan">Estrategia digital para marcas que quieren <b>crecer.</b></p>
+                <button class="btn-info">Ver más</button>
+                <div class="video-container">
+                    <video controls muted autoplay loop>
+                        <source src="https://youtu.be/828Hqzt2UBA?si=Lx4hp61-vdyN-6rB" type="video/mp4">
+                    </video>
+                </div>
             </section>
         </div>
 
@@ -54,11 +57,8 @@
             <div class="buttons">
                 <!-- CTA WHATSAPP -->
                 <section class="cta">
-                    <button class="btn btn-whatsapp" onclick="openWhatsApp()">
-                        <span class="icon">
-                            <img src="./img/whatsapp-svgrepo-com.svg" class="icon-img" alt="whatsapp">
-                        </span>
-                        <span class="text">Hablemos por WhatsApp</span>
+                    <button class="btn btn-whatsapp">
+                        <span class="text">Nuestros servicios</span>
                     </button>
                 </section>
 
@@ -66,44 +66,84 @@
                 <section class="actions">
                     <button class="action-btn" onclick="callPhone()">
                         <span class="icon">
-                            <img src="./img/phone-call-svgrepo-com (1).svg" class="icon-img" alt="Llamar">
+                            <img src="./img/ICONO-2.png" class="icon-img" alt="Servicios Web">
                         </span>
-                        <span class="text">Llamar</span>
+                        <span class="text">Servicios Web</span>
                     </button>
 
                     <button class="action-btn" onclick="requestProposal()">
                         <span class="icon">
-                            <img src="./img/mail-alt-svgrepo-com (1).svg" class="icon-img" alt="propuesta">
+                            <img src="./img/ICONO-3.png" class="icon-img" alt="Branding">
                         </span>
-                        <span class="text">Solicita una propuesta</span>
+                        <span class="text">Branding</span>
                     </button>
 
                     <button class="action-btn" onclick="downloadVcard()">
                         <span class="icon">
-                            <img src="./img/arrow-down-to-bracket-svgrepo-com.svg" class="icon-img" alt="contacto">
+                            <img src="./img/ICONO-4.png" class="icon-img" alt="Redes Sociales">
                         </span>
-                        <span class="text">Descargar contacto</span>
+                        <span class="text">Redes Sociales</span>
                     </button>
 
                     <button class="action-btn" onclick="shareCard()">
                         <span class="icon">
-                            <img src="./img/arrow-up-right-from-square-svgrepo-com (1).svg" class="icon-img"
-                                alt="Compartir tarjeta">
+                            <img src="./img/ICONO-7.png" class="icon-img" alt="Impresos">
                         </span>
-                        <span class="text">Compartir tarjeta</span>
+                        <span class="text">Impresos</span>
+                    </button>
+                    <button class="action-btn" onclick="callPhone()">
+                        <span class="icon">
+                            <img src="./img//ICONO-4.png" class="icon-img" alt="Publicidad Digital">
+                        </span>
+                        <span class="text">Publicidad Digital</span>
+                    </button>
+
+                    <button class="action-btn" onclick="requestProposal()">
+                        <span class="icon">
+                            <img src="./img/ICONO-7.png" class="icon-img" alt="Merchadising">
+                        </span>
+                        <span class="text">Merchadising</span>
+                    </button>
+
+                    <button class="action-btn" onclick="downloadVcard()">
+                        <span class="icon">
+                            <img src="./img/ICONO-5.png" class="icon-img" alt="Audio visuales">
+                        </span>
+                        <span class="text">Audio visuales</span>
+                    </button>
+
+                    <button class="action-btn" onclick="shareCard()">
+                        <span class="icon">
+                            <img src="./img/ICONO-5.png" class="icon-img" alt="Sistemas">
+                        </span>
+                        <span class="text">Sistemas</span>
+                    </button>
+
+                </section>
+
+                <section class="btn-plus">
+                    <button class="btn-bussines">
+                        <span class="text text-bussines">WhatsApp</span>
+                        <span class="icon icon-bussines">
+                            <img src="./img/whatsapp-svgrepo-com.svg" class="icon-img img-bussines" alt="WhatsApp">
+                        </span>
+                    </button>
+                    <button class="btn-bussines">
+                        <span class="text-bussines">Mandar Correo</span>
+                        <span class="icon-bussines">
+                            <img src="./img/mail-svgrepo-com.svg" class="icon-img img-bussines" alt="Mandar Correo">
+                        </span>
                     </button>
                 </section>
             </div>
-            <section class="credentials">
-                <p>✨ Más de <span> 100 marcas</span> atendidas</p>
-                <p>📈 Especialista en redes, ads y branding</p>
+            <section class="credentials"><img src="./img/maps-and-flags-pin-svgrepo-com.svg" class="icon-map" alt="direccion">
+                <p> Av. Conde de Lemos 605 Villa bonita 3 of. 704 - Callao</p>
             </section>
-
         </div>
+        <div class="isla"></div>
+    </main>
 
-</main>
-
-<script src="./index.js"></script>
+    <script src="./index.js"></script>
 </body>
 
 </html>
